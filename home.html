@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="login" content="" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="title-design">
+      <p class="title-design-title">Welcome Guest</p>
+    </div>
+    <div class="auto-blink">
+      <h1 id="blink" style="font-size: 50px">Book Ticket for Free!</h1>
+    </div>
+    <div class="container">
+      <form class="form">
+        <!-- name -->
+        <!-- ticket count -->
+        <div class="form-class">
+          <div class="one-1">
+            <label for="name">Passenger Name:</label>
+            <input
+              id="name"
+              type="text"
+              placeholder="Passenger Name"
+              style="
+                border: none;
+                width: 507px;
+                height: 50px;
+                padding-left: 10px;
+                margin-top: 5px;
+                overflow: hidden;
+                /* border-radius: 5px; */
+                border: 1px solid silver;
+              "
+            />
+          </div>
+          <div class="one-2">
+            <label for="numberTicket">Number Of Ticket's:</label>
+            <input
+              id="numberTicket"
+              type="number"
+              placeholder="Number of Tickets?"
+              style="
+                border: none;
+                width: 337px;
+                height: 50px;
+                padding-left: 10px;
+                margin-top: 5px;
+                overflow: hidden;
+                /* border-radius: 5px; */
+                border: 1px solid silver;
+              "
+            />
+          </div>
+        </div>
+        <!--  -->
+        <!-- destination -->
+        <!-- bus choose -->
+        <div class="form-class">
+          <div class="one-1">
+            <label for="choosecity">Choose Destination:</label>
+            <select
+              id="choosecity"
+              style="
+                border: none;
+                width: 518px;
+                height: 52px;
+                padding-left: 10px;
+                margin-top: 5px;
+                overflow: hidden;
+                /* border-radius: 5px; */
+                border: 1px solid silver;
+              "
+            >
+              <option>Choose City</option>
+              <option>New Delhi</option>
+              <option>Siliguri</option>
+              <option>Kolkata</option>
+              <option>Bihar</option>
+              <option>Rajasthan</option>
+              <option>Ahmedabad</option>
+              <option>Lucknow</option>
+              <option>Punjab</option>
+              <option>Bangalore</option>
+              <option>Hyderabad</option>
+              <option>Chennai</option>
+              <option>Mumbai</option>
+            </select>
+          </div>
+          <div class="one-2">
+            <label for="busdetails">Bus Details:</label>
+            <input
+              id="busdetails"
+              type="text"
+              class="form-control"
+              placeholder="Fetching Bus Choose destination....."
+              style="
+                border: none;
+                width: 337px;
+                height: 50px;
+                padding-left: 10px;
+                margin-top: 5px;
+                overflow: hidden;
+                /* border-radius: 5px; */
+                border: 1px solid silver;
+              "
+              maxlength="0"
+            />
+          </div>
+        </div>
+        <!--  -->
+        <!-- seat number -->
+        <!-- fare -->
+        <div class="form-class">
+          <div class="equal">
+            <label for="seatnumber">Seat Number:</label>
+            <select
+              id="seatnumber"
+              type="text"
+              class="form-control"
+              style="
+                border: none;
+                width: 300px;
+                height: 50px;
+                padding-left: 10px;
+                margin-top: 15px;
+                overflow: hidden;
+                border: 1px solid silver;
+                /* border-radius: 5px; */
+              "
+              placeholder="Choose Seat Number"
+            >
+              <option>Choose Seat</option>
+              <option>A1</option>
+              <option>A2</option>
+              <option>A3</option>
+              <option>A4</option>
+              <option>A5</option>
+              <option>B1</option>
+              <option>B2</option>
+              <option>B3</option>
+              <option>B4</option>
+              <option>B5</option>
+              <option>AC1</option>
+              <option>AC2</option>
+              <option>AC3</option>
+              <option>AC4</option>
+              <option>AC5</option>
+              <option>Sleeper1</option>
+              <option>Sleeper2</option>
+              <option>Sleeper3</option>
+              <option>Sleeper4</option>
+              <option>Sleeper5</option>
+            </select>
+          </div>
+          <div class="equal">
+            <label for="fare">Amount in ₹: </label>
+            <input
+              id="fare"
+              type="text"
+              class="form-control"
+              placeholder="Generating Total Fare....."
+              style="
+                border: none;
+                width: 300px;
+                height: 50px;
+                padding-left: 10px;
+                margin-top: 15px;
+                overflow: hidden;
+                border: 1px solid silver;
+                /* border-radius: 5px; */
+              "
+              maxlength="0"
+            />
+          </div>
+        </div>
+        <!-- time -->
+        <!-- THank You -->
+        <div class="form-class">
+          <div class="equal">
+            <label for="departure_time">Departure Time:</label>
+            <input
+              id="departure_time"
+              type="text"
+              class="form-control"
+              placeholder="4.00 PM"
+              style="
+                border: none;
+                width: 270px;
+                height: 50px;
+                padding-left: 10px;
+                margin-top: 15px;
+                overflow: hidden;
+                border: 1px solid silver;
+                /* border-radius: 5px; */
+              "
+              maxlength="0"
+            />
+          </div>
+          <div class="equal">
+            <label for="note">Note: </label>
+            <input
+              id="note"
+              type="text"
+              class="form-control"
+              placeholder="Please Take care of your Luggage 😀"
+              style="
+                border: none;
+                width: 300px;
+                height: 50px;
+                padding-left: 10px;
+                margin-top: 15px;
+                overflow: hidden;
+                /* border-radius: 5px; */
+                background-color: beige;
+              "
+              maxlength="0"
+            />
+          </div>
+        </div>
+        <!--  buttons -->
+        <div class="form-class">
+          <div class="btn-each">
+            <button
+              id="clear_all"
+              class="btn-each-main"
+              style="background-color: rgb(255, 23, 23); color: white"
+            >
+              Clear All
+            </button>
+          </div>
+          <div class="btn-each">
+            <button
+              id="check_fares"
+              class="btn-each-main"
+              style="background-color: sienna; color: white"
+            >
+              Check Fares
+            </button>
+          </div>
+          <div class="btn-each">
+            <button
+              id="refund_amount"
+              class="btn-each-main"
+              style="background-color: rgb(0, 170, 9); color: white"
+            >
+              Refund Amount
+            </button>
+          </div>
+          <div class="btn-each">
+            <button
+              id="book_ticket"
+              class="btn-each-main"
+              style="background-color: dodgerblue; color: white"
+            >
+              Book Ticket
+            </button>
+          </div>
+        </div>
+        <!--  buttons -->
+      </form>
+    </div>
+    <div class="marquee">
+      <marquee class="marq-design"
+        >Bus Details: New Delhi → Per Persion ₹400: Shyamoli Bus Parivahan,
+        Siliguri → Per Persion ₹200: Raj Bus Service, Kolkata → Per Persion
+        ₹300: Raushan Travels, Bihar → Per Persion ₹500: Sharma Travels,
+        Rajasthan → Per Persion ₹700: Kota Tour's Travel, Ahmedabad → Per
+        Persion ₹1300: Ahmedabad Fast Service, Lucknow → Per Persion ₹1000:
+        Lucknow Travel, Punjab → Per Persion ₹1800: Punjab Bus Service,
+        Bangalore → Per Persion ₹2200: Bangalore Bus Tour Travel, Hyderabad →
+        Per Persion ₹2600: Hyderabad Bus Service, Chennai → Per Persion ₹3000:
+        Chennai Express, Mumbai → Per Persion ₹2700: Mumbai Bus Travel
+      </marquee>
+    </div>
+  </body>
+  <script type="text/javascript" src="./backend/home.js"></script>
+</html>

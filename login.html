@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="login" content="" />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <title>Login.....</title>
+  </head>
+  <body>
+    <!-- body -->
+    <div class="top-block">
+      <img src="./assets/book_bus.png" width="1300px" height="130px" />
+    </div>
+    <div class="id-password-container">
+      <div class="id-password-mainContainer">
+        <div class="id-password-title">
+          <p class="title-name">Book a Bus Ticket for free 😀</p>
+        </div>
+        <div class="id-password-box">
+          <form class="form" id="form">
+            <div
+              style="
+                /* background-color: red; */
+                height: 80px;
+                display: grid;
+                width: 70%;
+                margin: auto;
+              "
+            >
+              <label class="label-design" for="username">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                placeholder="Full Name"
+                autocomplete="off"
+                value="Guest"
+                disabled="true"
+              />
+            </div>
+            <!-- password -->
+            <div
+              style="
+                margin-top: 10px;
+                /* background-color: red; */
+                height: 80px;
+                display: grid;
+                width: 70%;
+                margin: auto;
+              "
+            >
+              <label class="label-design" for="password">Mobile Number</label>
+              <input
+                maxlength="10"
+                type="text"
+                class="form-control"
+                id="password"
+                placeholder="Password"
+                value="+91 xxxxxxxxxx"
+                disabled="true"
+              />
+            </div>
+            <!-- Button design -->
+            <div
+              style="
+                margin-top: 10px;
+                /* background-color: red; */
+                height: 80px;
+                width: 70%;
+                margin: auto;
+              "
+            >
+              <button title="Login" class="login-btn" id="goingHome">
+                <a id="nextpage" href="./home.html">BookNow</a>
+              </button>
+            </div>
+            <div
+              style="
+                /* background-color: green; */
+                height: 40px;
+                width: 100%;
+                display: grid;
+              "
+              id="qoute-everyday"
+            >
+              “There is no Ctrl-Z in life.”
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <p style="text-align: center; width: 100%; height: 30px">
+          Just developing this page using HTML CSS and JavaScript only 😃
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script type="text/javascript" src="./backend/login.js"></script>
+</html>
